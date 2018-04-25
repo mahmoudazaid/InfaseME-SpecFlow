@@ -12,6 +12,6 @@ Sample test project using **C#, SpecFlow, Nunit, Selenium Webdriver**.
     * Selenium ChromeDriver 2.38.0
 
 
-# How to Run it?
+# How to Run?
 Use Test Explorer Window to Run the tests<br />
 **Note:** If the Test Explorer Window not opened go to **Test > Windows > Test Explorer**
