@@ -37,6 +37,14 @@ bld/
 *.VisualState.xml
 TestResult.xml
 
+#SpecFlow
+.dll
+.tmp
+.pdb
+.cashe
+.text
+
+
 # Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/
@@ -63,7 +71,8 @@ artifacts/
 *.tlb
 *.tli
 *.tlh
-*.tmp
+*
+
 *.tmp_proj
 *.log
 *.vspscc
