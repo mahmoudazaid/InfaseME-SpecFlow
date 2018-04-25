@@ -11,6 +11,8 @@ namespace InfaseME.features.support
     public sealed class helper
     {
         // For additional details on SpecFlow step definitions see http://go.specflow.org/doc-stepdef
+        
+        //Difine a wait step to use it on the project
         [When(@"I wait (.*) seconds")]
         public void WhenIWaitSeconds(int number)
         {

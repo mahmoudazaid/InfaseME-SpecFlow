@@ -8,8 +8,10 @@ namespace InfaseME.features.support
 {
     public class Driver
     {
+        //Difine an Instanse for the driver
         public static IWebDriver Instance;
 
+        //Open the Browser
         public static void Intitialize()
         {
             Instance = new ChromeDriver();
@@ -17,11 +19,13 @@ namespace InfaseME.features.support
             Instance.Manage().Window.Maximize();
         }
 
+        //Go To The Website Link
         public static void visit(string url)
         {
             Instance.Navigate().GoToUrl(url);
         }
 
+        //Close the Browser
         public static void Close()
         {
             Instance.Close();
