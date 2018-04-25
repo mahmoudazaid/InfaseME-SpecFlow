@@ -1,5 +1,5 @@
 # InfaseME-SpecFlow
-Sample test project using C#, SpecFlow, Nunit, Selenium Webdriver.
+Sample test project using **C#, SpecFlow, Nunit, Selenium Webdriver**.
 
 # Prerequisites:
 * Windows 
