@@ -2,7 +2,6 @@
 Sample test project using **C#, SpecFlow, Nunit, Selenium Webdriver**.
 
 # Prerequisites:
-* Windows 
 * Visual Studio 2015
   * Test Adapter
   * Using Nuget Pakege Manager To Install Below:
